@@ -4,7 +4,7 @@ export default function Layout() {
     return (
         <Tabs
             screenOptions={{
-                tabBarActiveTintColor: "blue",
+                tabBarActiveTintColor: "#FB7F62",
                 tabBarInactiveTintColor: "gray",
             }}
         >
