@@ -10,10 +10,10 @@ export default function Home() {
             imageStyle={{ opacity: 0.5 }}
         >
 
-            <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-                <Text>Bem-Vindo á Página Inicial</Text>
-                <Text>Aperte no Perfil para ver suas informações.</Text>
-                <Text>Aperte nas Notícias para ficar atualizado.</Text>
+            <View style={{ flex: 1, justifyContent: "center", alignItems: "center", gap: 10 }}>
+                <Text style={{fontWeight: "bold", fontSize: 25}}>Bem-Vindo á Página Inicial</Text>
+                <Text style={{fontWeight: 400}}>Aperte no Perfil para ver suas informações.</Text>
+                <Text style={{fontWeight: 400}}>Aperte nas Notícias para ficar atualizado.</Text>
             </View>
 
         </ImageBackground>
